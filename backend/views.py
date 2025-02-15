@@ -27,7 +27,7 @@ class UserCreateAPIView(CreateAPIView):
 #         task = Task.objects.all()
 #         # serializer = TaskSerializer(task, many=True)
 #         return Response(serializer.data)
-# 
+#
 # @api_view(['GET'])
 # # @permission_classes([IsAuthenticated])
 # @permission_classes([IsEmployee])
